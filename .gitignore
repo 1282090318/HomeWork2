@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（每次运行重新生成，不入库）
+output/
+
+# 本地密钥与私有配置（严禁提交）
+.env
+config.py
+*.key
+*.pem
+
+# 提交备份包与演示视频（走钉钉，不入库）
+*.zip
+*.rar
+*.7z
+*.mp4
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+Thumbs.db
+.DS_Store
