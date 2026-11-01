@@ -1,0 +1,18 @@
+# HW2-Workflow 依赖说明
+#
+# 本项目**零第三方依赖**，仅使用 Python 标准库（Python >= 3.9）：
+#   argparse / ast / json / os / re / time / typing / concurrent.futures / dataclasses
+#
+# 可选（仅在线模式需要网络与 API Key，无需安装额外包）：
+#   OPENAI_API_KEY=sk-xxxx
+#   OPENAI_BASE_URL=https://open.bigmodel.cn/api/paas/v4   # 智谱（已实测）
+#   OPENAI_MODEL=glm-5.3-flashx
+#
+# 其他 OpenAI 兼容服务示例：
+#   DeepSeek : https://api.deepseek.com            / deepseek-chat
+#   OpenAI   : https://api.openai.com/v1           / gpt-4o-mini
+#   Ollama   : http://localhost:11434/v1           / qwen2.5:7b
+#
+# 开发/测试同样无需额外依赖（默认强制离线，不访问网络）：
+#   python -m unittest tests.test_workflow -v
+#   python main.py --offline demo
